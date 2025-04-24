@@ -9,18 +9,65 @@
   </head>
   <body>
 
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">AURALIC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Link</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
     <!-- Inicio Offcanva -->
 
     <div class="offcanvas offcanvas-start" id="demo1">
       <div class="offcanvas-header">
-        <h1 class="offcanvas-title">Redes Sociales</h1>
+        <h1 class="offcanvas-title">Misión Y Visión</h1>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
       </div>
       <div class="offcanvas-body">
-        <p><a href="https://www.facebook.com/profile.php?id=61552285627976" target="_blank">Facebook</a></p>
-        <p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
-        <p><a href="https://x.com/?lang=es" target="_blank">X</a></p>
-        <button class="btn btn-secondary" type="button">A Button</button>
+        <div class="text-center">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#auralicInfo" aria-expanded="false" aria-controls="auralicInfo">
+            AURALIC
+          </button>
+          <div class="collapse" id="auralicInfo">
+            <div class="card card-body" style="animation: slideIn 0.5s ease-out;">
+              <h2 style="font-size: 1.5rem;">Misión de Auralic</h2>
+              <p style="font-size: 0.9rem;">La misión de Auralic es brindar una experiencia de audio digital excepcional a los entusiastas del sonido y a los profesionales de la música en todo el mundo. Auralic se dedica a crear productos innovadores y de alta calidad que combinen tecnología de vanguardia con un diseño elegante y minimalista. La empresa se enorgullece de su enfoque centrado en el cliente y se compromete a ofrecer una atención al cliente excepcional en cada etapa del proceso de compra y uso de sus productos.</p>
+              <h2 style="font-size: 1.5rem;">Visión de Auralic</h2>
+              <p style="font-size: 0.9rem;">La visión de Auralic es ser el líder mundial en el diseño y fabricación de equipos de audio digital de alta gama. La empresa se esfuerza por ofrecer productos que no solo suenen increíblemente bien, sino que también sean fáciles de usar y se vean impresionantes en cualquier entorno. Auralic se compromete a seguir innovando y a ofrecer soluciones de audio digital de vanguardia que mejoren la experiencia auditiva de sus clientes.</p>
+            </div>
+          </div>
+        </div>
+
+        <style>
+          @keyframes slideIn {
+            from {
+              transform: translateX(-100%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+        </style>
       </div>
     </div>
 
@@ -39,19 +86,19 @@
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/slider1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <img src="img/auralic1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img src="img/slider2.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <img src="img/auralic2.jpg" alt="Chicago" class="d-block" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img src="img/slider3.jpg" alt="New York" class="d-block" style="width:100%">
+      <img src="img/auralic3.jpg" alt="New York" class="d-block" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img src="img/slider4.jpg" alt="New York" class="d-block" style="width:100%">
+      <img src="img/auralic4.jpg" alt="New York" class="d-block" style="width:100%">
     </div>
     <div class="carousel-item">
-      <img src="img/slider5.jpg" alt="New York" class="d-block" style="width:100%">
+      <img src="img/auralic5.jpg" alt="New York" class="d-block" style="width:100%">
     </div>
   </div>
   
@@ -65,14 +112,22 @@
 </div>
 
 <div class="container-fluid mt-3">
-  <h3>Carousel Example</h3>
-  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+  <h3 style="font-family: 'Georgia', serif; font-size: 2.5rem; text-align: center;">AURALIC</h3>
+  <p>Auralic es una empresa de audio digital de alta gama que se especializa en el diseño y la fabricación de equipos de audio digital para el entretenimiento en el hogar y el estudio.</p>
+  <p>Sus productos incluyen:</p>
+  <ul>
+    <li>Convertidores digital a analógico (DAC) de alta fidelidad</li>
+    <li>Reproductores de audio en red y streamers</li>
+    <li>Amplificadores integrados y preamplificadores</li>
+    <li>Fuentes de alimentación lineales y regeneradoras</li>
+  </ul>
+  <p>Todos los productos de Auralic están diseñados con una atención meticulosa a la calidad del sonido, la usabilidad y la estética. La empresa se enorgullece de su enfoque innovador en el diseño de productos, combinando tecnología de vanguardia con un diseño elegante y minimalista.</p>
 </div>
 
 <!-- Boton del Offcanvas-->
 <div class="container-fluid mt-3">
   <h3>Offcanvas Sidebar</h3>
-  <p>Offcanvas is similar to modals, except that it is often used as a sidebar.</p>
+  <p>En el siguiente Offcanvas podras encontrar la mision y vision de nuestra empresa.</p>
   <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
     Open Offcanvas Sidebar
   </button>
@@ -81,7 +136,7 @@
 
 <div class="container mt-3">
   <h3>Video de Bienvenida</h3>
-  <p>Click on the button to open the modal.</p>
+  <p>Aquí podrás encontrar un video donde damos a conocer más de nuestra prestigiosa empresa.</p>
   
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
     Abrir Video
@@ -95,15 +150,13 @@
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">Bienvenidos a la UPC</h4>
+        <h4 class="modal-title">AURALIC, de lo mejor</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       <!-- Modal body -->
-      <div class="modal-body">
-
-        <video src="Video/1028-142624363_tiny.mp4"controls> </video>
-
+      <div class="modal-body text-center">
+        <video src="Video/video.mp4" controls style="width: 70%; height: auto; margin: 0 auto; display: block;"></video>
       </div>
 
       <!-- Modal footer -->
@@ -142,221 +195,45 @@
   </div>
 </div>
 
-
-<!-- Inivio del collapse -->
+<!-- inicio de modal 2 -->
 
 <div class="container mt-3">
-  <h2>Accordion Example</h2>
-  <p><strong>Note:</strong> The <strong>data-bs-parent</strong> attribute makes sure that all collapsible elements under the specified parent will be closed when one of the collapsible item is shown.</p>
-  <div id="accordion">
-    <div class="card">
-      <div class="card-header">
-        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </div>
-      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
-        Collapsible Group Item #2
-      </a>
-      </div>
-      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </div>
-      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-      </div>
-    </div>
-
-    <!-- Inicio acordeon 4 -->
-    <div class="card">
-      <div class="card-header">
-        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
-          Collapsible Group Item #4
-        </a>
-      </div>
-      <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
-        <div class="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </div>
-      </div>
-    </div>
-        <!-- Inicio acordeon 4 -->
-        <div class="card">
-          <div class="card-header">
-            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFive">
-              Collapsible Group Item #5
-            </a>
-          </div>
-          <div id="collapseFive" class="collapse" data-bs-parent="#accordion">
-            <div class="card-body">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            <img src="img/Imagen de WhatsApp 2025-03-07 a las 14.37.34_d9f2d144.jpg" alt="" style="width: 50%;">
-            </div>
-          </div>
-        </div>
-  </div>
+  <h3>ventana modal para observar pdf mindray</h3>
+  <p>Click on the button to open the modal.</p>
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal2">
+    Abrir pdf mindray
+  </button>
 </div>
 
-<!-- Inicio card -->
-    <div class="container mt-3">
-  <h2>Card Image Example</h2>
-  <p>Programación IV:</p>
-  <div class="card" style="width:400px">
-    <img class="card-img-top" src="img/Imagen.jpg" alt="Card image" style="width:100%">
-    <div class="card-body">
-      <h4 class="card-title">Isaias Simancas Diaz</h4>
-      <p class="card-text">Estudiante de Ingenieria De Sietmas</p>
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal3">
-    Ver mi Perfil
-  </button>
-    </div>
-  </div>
-
-
-    <!-- Fin card -->
-
-  <!-- Inicio ventana modal tres -->
 <!-- The Modal -->
-<div class="modal" id="myModal3">
-  <div class="modal-dialog modal-lg">
+<div class="modal" id="myModal2">
+  <div class="modal-dialog modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">Información Isaias Simancas Diaz</h4>
+        <h4 class="modal-title">Bienvenidos al modal pdf con la informacion de nuestra empresa</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
-        
-        <p> <b>Nombres: </b> Isaias</p>
-        <p> <b>Apellidos: </b> Simancas DiaZ</p>
-        <p> <b>Dirección: </b> Cra 36 1#22 </p>
-        <p> <b>E-mail: </b> Isismancas@unicesar.edu.co</p>
-        <p> <b>Celular: </b> 3045476655</p>
+        <a href="pdf/VEGA_USERSGUIDE_R1.pdf" download>Link archivo</a>
+        <iframe src="pdf/VEGA_USERSGUIDE_R1.pdf" frameborder="0" width="100%" height="500px"></iframe>
 
       </div>
 
       <!-- Modal footer -->
-     
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
 
     </div>
   </div>
 </div>
 
-  
-
-    <!-- Final ventana modal tres -->
-
- <!-- Final Modal 2 -->
-
-
-    <div class="container"> 
-
-        <h1>Documento Pdf</h1>
-        <button type="button" class="btn btn-primary" onclick="window.open()">PDF</button>
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Papas Fritas</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Galeria</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Sobre Nosotros
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Misión</a></li>
-            <li><a class="dropdown-item" href="#">Vision</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-    </div>
-
-    <div class ="container-fluid">
-        <div class ="row">
-            <div class ="col-sm-3" style="background-color: yellow;">Columna 1 
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. 
-                    Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. </p>
-            </div>
-            <div class ="col-sm-3" style="background-color: blue;">Columna 2 </div>
-            <div class ="col-sm-4" style="background-color: red;">Columna 3 </div>
-        </div>
-    </div>
-
-
-    <img src="img/Imagen de WhatsApp 2025-03-07 a las 14.37.34_d9f2d144.jpg" alt="" style="width: 100%;">
-
-<div class ="container">
-    <div class="row">
-        <div class ="col-sm-4" style="background-color: yellow;">Columna 1 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ex harum nobis deleniti ut magnam error ratione ducimus a voluptatibus est eos modi optio deserunt accusamus, nemo ab voluptatem nesciunt.</p>
-        </div>
-        <div class ="col-sm-6" style="background-color: blue;">Columna 2 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, suscipit accusantium illum quibusdam iure commodi neque totam tempora ea. Esse repellat officiis maiores veniam nihil iure laboriosam cumque obcaecati fugiat!</p>
-        </div>
-        <div class ="col-sm-2" style="background-color: red;">Columna 3 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ut aut minima laudantium exercitationem quibusdam veniam unde, dolores hic tempora delectus! Quam ipsa illo ex inventore architecto veritatis consectetur iure.</p>
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-
-    <div class="row">
-        <div class="col-sm-6"> Columna 1 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequatur placeat excepturi illum quod officiis 
-        cumque obcaecati nihil quas consectetur optio ipsam modi, quo blanditiis ipsa possimus itaque, nesciunt labore?</p></div>
-
-        <div class="col-sm-6"> Columna 2
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequatur placeat excepturi illum quod officiis 
-            cumque obcaecati nihil quas consectetur optio ipsam modi, quo blanditiis ipsa possimus itaque, nesciunt labore?</p></div>
-    </div>
-
-    <footer style="background-color: yellow;">
-        Pagina web creada por:
-        <ul>
-            <li>ISAIAS SIMANCAS DIAZ</li>
-    </footer>
-
-<!-- Final del HTML -->
-
-
+<!-- fin de modal 2 -->
 
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
